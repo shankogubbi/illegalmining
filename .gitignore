@@ -1,0 +1,26 @@
+# Local environments, editor settings and Python caches
+venv/
+.venv/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Credentials
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# Large/local artifacts; retain source and documentation in Git
+data/raw/
+models/**/*.pth
+models/*.pth
+logs/
+results/*
+!results/README.md
+archive/*
+!archive/README.md
